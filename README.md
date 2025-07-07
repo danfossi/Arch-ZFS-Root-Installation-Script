@@ -2,6 +2,20 @@
 
 This script automates the installation of Arch Linux on ZFS, providing options for BIOS/UEFI boot, ZFS pool encryption, and various RAID configurations for multi-disk setups.
 
+---
+
+## Table of Contents
+* [Disclaimer](#disclaimer)
+* [Features](#features)
+* [Prerequisites](#prerequisites)
+* [How it Works](#how-it-works)
+* [How to Use](#how-to-use)
+* [Post-Installation Steps (Recommended)](#post-installation-steps-recommended)
+* [Troubleshooting](#troubleshooting)
+* [Contributions](#contributions)
+
+---
+
 ## Disclaimer
 
 **WARNING**: This script performs **destructive** operations on your selected disks. It will erase ALL existing data on the chosen disks. Use with extreme caution and ensure you have backed up any important data.
