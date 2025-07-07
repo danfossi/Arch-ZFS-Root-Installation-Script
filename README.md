@@ -64,9 +64,8 @@ This script is provided as-is and without warranty. While efforts have been made
 2.  **Ensure Internet Connectivity**: Verify you have an active internet connection (e.g., `ping archlinux.org`).
 3.  **Download the Script**:
     ```bash
-    curl -o install_arch_zfs.sh <URL_TO_YOUR_SCRIPT>
+    curl -o install_arch_zfs.sh https://raw.githubusercontent.com/danfossi/Arch-ZFS-Root-Installation-Script/refs/heads/main/arch_zfs_install.sh
     ```
-    (Replace `<URL_TO_YOUR_SCRIPT>` with the raw URL to this script on your GitHub repository).
 4.  **Make it Executable**:
     ```bash
     chmod +x install_arch_zfs.sh
